@@ -1,0 +1,15 @@
+(DEFUN C:CAMCAD ()
+    (setq f (getint "INICIO : " ))
+    (setq T1 F)
+    (REPEAT 1000
+        (setq texto (car (entsel "Selecciona EL TEXTO: ")))
+        (IF (> (STRLEN (ITOA F)) 3)
+         (PROGN
+          (SETQ P (- (STRLEN (ITOA F)) 3))
+          (SETQ X (STRCAT (SUBSTR (ITOA F) 1 P) "+" (SUBSTR (ITOA F) (1+ P) 3)))
+         )
+        )
+        (COMMAND "CHANGE" texto "" "" "" "" "" "" X)
+        (SETQ F (+ F 20))
+    )
+)

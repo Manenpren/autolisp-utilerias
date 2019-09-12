@@ -1,0 +1,4 @@
+(DEFUN C:DESSEC ()
+  (SETQ E (TBLNEXT "BLOCK" T))
+  
+)

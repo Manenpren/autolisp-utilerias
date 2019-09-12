@@ -1,0 +1,34 @@
+[Main]
+DumpEntries=1
+[AcadCrashDump1]
+ExeTimeDateStamp=0x3E4CB47F
+CrashTimeDateStamp=0x41266E5E
+acadVer=16.0s (LMS Tech)
+WinVer=0xA280105
+DumpType=Exception
+ExceptionCode=0x80000001
+ExceptionFlags=0x0
+ExceptionAddress=0x332BB2E3
+NumberParameters=0x2
+ExceptionInformation0=0x1
+ExceptionInformation1=0x248A2B0
+ContextFlags=0x1003F
+SegGs=0x0
+SegFs=0x3B
+SegEs=0x23
+SegDs=0x23
+Edi=0x248A2B0
+Esi=0x0
+Ebx=0x4D5
+Edx=0x1655AF8
+Ecx=0x7EEF9120
+Eax=0x1400
+Ebp=0xFFFFFF00
+Eip=0x332BB2E3
+SegCs=0x1B
+EFlags=0x10202
+Esp=0x12EBF0
+SegSs=0x23
+ReferenceAddr=0x9F6A50
+ReferenceName=_WinMain@16
+StackWalk0=0,A2E3,1,SymExport,+0,D:\Archivos de programa\AutoCAD 2004\drv\szb8.hdi

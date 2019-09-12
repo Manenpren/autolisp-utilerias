@@ -1,0 +1,7 @@
+(DEFUN C:FRET ()
+   (COMMAND "-LAYER" "F" "RETICULA" "")
+)
+
+(DEFUN C:TRET ()
+   (COMMAND "-LAYER" "T" "RETICULA" "")
+)

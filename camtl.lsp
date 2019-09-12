@@ -1,0 +1,10 @@
+(defun C:cb2 ()
+        (print "\n Cambio de layer")
+        (setq prov 0)
+        (repeat 1000
+          (setq e (car (entsel "Selecciona EL TEXTO: ")))
+          (setq prov2 1)
+          (setq NOMBRE (cdr (assoc 1 (entget e))))
+          (command "change" e "" "" "" "" "" "" (strcat nombre "B"))
+        )
+)

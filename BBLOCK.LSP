@@ -1,0 +1,16 @@
+(defun c:bbl ()
+        (command "undo" "m")
+        (setq e (car (entsel "Selecciona el bloque a BORRAR: ")))
+        (while (/= "INSERT" (cdr (assoc 0 (entget E))))
+          (if (/= "INSERT" (cdr (assoc 0 (entget E))))
+            (progn   
+              (ALERT "\nEl objeto debe ser un block ")
+              (setq E (car (entsel "\n Selecciona el bloque: ")))
+            )
+          )
+        )
+        (setq NOMBRE (cdr (assoc 2 (entget e))))
+        (setq fs (cdr (assoc 41 (entget e))))
+        (setq gpo (ssget "X" (list (cons 0 "INSERT") (cons 2 nombre) (cons 41 fs))))  ; Get all entities on layer
+        (command "ERASE" gpo "")
+)

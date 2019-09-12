@@ -1,0 +1,116 @@
+            PROGRAMAS DE LISP
+
+NOMBRE DEL PROGRAMA         DESCRIPCION                     COMANDO
+   ALINEA.lsp         alinea blocks hacia una linea         ALINEA
+
+   AREA.lsp           saca areas consecutivas tomando       ARE
+                      en cuenta el inicio y numero 
+                      de manzana y acotaciones(NUMERA
+                      L1,MX L2,MX ....... LN,MX)
+ 
+   AREA2.LSP          saca areas poniendo "l" mas el        CA
+                      numero de lote (pide inicio)
+
+   AREAA.LSP          saca areas consecutivas tomando       ARE2
+                      en cuenta el inicio y numero 
+                      de manzana y acotaciones (NUMERA
+                      L1A,MX L1B,MX L2A,MX ....... LNA,MX)
+
+   ARREGLO.LSP        hace un arreglo pero pide
+
+   ASCTEXT.LSP        inserta textos de un archivo fuente   ASCTEXT
+
+   BUSQUEDA.LSP       busca una cadena en blocks y textos   BUSCA
+
+   BBLOCK.LSP         BORRA TODOS LOS BLOCKS IGUALES AL     BBLOCK
+                      BLOCK SELECCIONADO
+
+   CA.LSP             CALCULA EL AREA Y PONE UN BLOCK CON    CA
+                      EL NOMBRE DEL PROPIETARIO Y SUP
+
+   CADENA.LSP         NUMERA LOS TEXTOS DE UN SECCIONAMIENTO   CADENA
+		      BASANDOSE EN EL LAYER
+
+   CADENA2.LSP        NUMERA LOS TEXTOS DE UN SECCIONAMIENTO   CADENA2
+		      BASANDOSE EN UN GRUPO DE OBJETOS
+
+   CALARE.LSP         CALCULA UNA SUPERFICIE DETERMINADA     CALARE
+		      MOVIENDO UNA LINEA EN OFSET 
+
+   CALARE2.LSP         CALCULA UNA SUPERFICIE DETERMINADA    CALARE2
+		      ROTANDO UNA LINEA DESDE UN VERTICE 
+   
+   CAMLAYER.LSP       CAMBIA TODOS LOS OBJETOS IGUALES A     CAMLAYER
+		      EL OBJETO SELECCIONADO A UN LAYER 
+		      DETERMINADO                  
+
+   CRLAY.LSP          CREA LAYERS DESDE UN NUMERO X A OTRO   CRLAY
+                      (IDEAL PARA CURVAS DE NIVEL)
+
+   DELLAYER.LSP       BORRA UN LAYER SELECCIONADO            DELLAYER
+
+   EPP.LSP            EXTRAE COORDENADAS DE LAS POLILINEAS   EPP
+ 		      SELECCIONADAS, TOMA EL VALOR DEL 
+   		      LAYER COMO ELEVACION Y CREA UNA BASE 
+		      DE DATOS.
+
+   ESCALA.LSP         ESCALA TODO TIPO DE ENTIDADES EN       ESCALA
+		      INCLUYE ALGUNAS MEJORAS EN CUANTO 
+		      ESCALA DE TEXTO.
+
+   ESTACION.LSP       BUSCA "PUN2" CON EL IDENTIFICADOR DE   ESTACION
+		      BLOCK CONTENIDO EN EL ATRIBUTO DE
+                      CODIGO SI LO ENCUENTRA LO ESCALA A
+                      UN DETERMINADO FACTOR
+
+   HTEXT.LSP          ESCALA EL TEXTO A UN TAMAÑO DESEADO    HTEXT
+
+   IDY.LSP            TOMA EL VALOR DE X O DE Y y LO PLASMA  DX,DY
+    		      EN UN TEXTO
+
+   IGUAL.LSP          IGUALA UN BLOCK TOMANDO COMO           IGUAL
+		      REFERENCIA UNO FUENTE Y UNO DESTINO 
+		      IGUALANDO TODO EL DIBUJO.
+
+   INSATR.LSP         INSERTA BLOCKS DIFERENTES DESDE UNA    INSATR
+		      ARCHIVO FUENTE CON LA POSIBILIDAD DE
+                      CAMBEAR SU NUMERO DE COLUMNAS PARA 
+ 		      INSERTARLOS EN LOS ATRIBUTOS
+
+   INSPUN.LSP         INSERTA PUNTOS EN UNA POLILINEA        INSPUN
+		      COMENZANDO DE UN NUMERO DETERMINADO
+	              EN EL SENTIDO QUE SE DIBUJO, ESTA.
+
+   LIMPIA.LSP         LIMPIA POR MEDIO DE UNA POLILINEA UN   LIMPIA
+		      ARCHIVO DE CURVAS DE NIVEL.
+
+   LINEA.LSP         DIBUJA UNA LINEA EN 3 DIMENSIONES DE    LINEA
+                     UN BLOCK "PUN2" A OTRO. "PELEV TOMA UN
+		     VALOR DE ELEVACION DE UN PUNTO Y 
+                     INSERTA UN "PUN2" CON LA ELEVACION MEDIDA"
+
+   LINTOP14.LSP      PROGRAMA DE ACOTAMIENTO Y               LP
+                     ELABORACION DE UN CUADRO DE 
+                     CONSTRUCCION DE UNA POLYLINEA MUY 
+                     SENCILLO
+
+   LINTOPF.LSP       PROGRAMA DE ACOTAMIENTO Y               LINTOPF
+                     ELABORACION DE UN CUADRO DE 
+                     CONSTRUCCION DE UNA POLYLINEA 
+                     SEGUNDA VERSION MUY COMPLETO
+
+   LOTIF.LSP         LOTIFICA MANZANAS PIDIENDO SU NUMERO    LOTIF
+   		     DE MANZANA Y CALCULANDO SU NUMERO
+		     DE LOTE Y ELEVACION.
+
+   MLAYER.LSP        MUEVE EL LAYER SELECCIONADO             ML
+
+   MUEVE.LSP         MUEVE UN GRUPO TOMANDO X=0 y Y VALOR    MV
+		     DEL TEXTO SELECCIONADO.
+
+   PELEV
+
+
+
+   
+   

@@ -1,0 +1,18 @@
+(defun c:v3d ()
+  (setq esfera (car (entsel "\n Selecciona la entidad a capturar :")))
+  (setq pbase (getpoint "\n Punto base en donde rotar :"))
+  (c:render "c:\\captura\\f0001")
+  (setq xyz (cdr (assoc 10 (entget esfera))))
+  (setq prov 1)
+  (repeat 36
+    (command "rotate" esfera "" pbase "10")
+    (if (< prov 10)
+      (setq resto (strcat "0" (itoa prov)))
+      (setq resto (itoa prov))
+    )
+    (setq nombre (strcat "c:\\captura\\f00" resto))
+    (c:render nombre)
+    (setq prov (1+ prov))
+  )
+)
+

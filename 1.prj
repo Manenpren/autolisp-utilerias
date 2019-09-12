@@ -1,0 +1,22 @@
+;;; VLisp project file [V2.0] 1 saved to:[C:/LISPMSA] at:[11/5/05] 
+(VLISP-PROJECT-LIST
+  :name
+  1
+  :own-list
+  ("1" "ARREGLO"	"base de datos de secciones"
+       "COMANDOS"	"curvas"	 "DELLAYER"
+       "EPP"		"ESCALA"	 "ESTACION"
+       "funciones_sec"	"INSPUN"	 "LIMPIA"
+       "linea"		"perf"		 "POLVER"
+       "RBLOCK"		"SEC"
+      )
+  :fas-directory
+  "C:/FAS"
+  :tmp-directory
+  "C:/TEMP"
+  :project-keys
+  (:BUILD (:standard) :MERGED nil :SAFE-MODE T :MSGLEVEL 1)
+  :context-id
+  :AUTOLISP
+)
+;;; EOF

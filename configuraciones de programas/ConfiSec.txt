@@ -1,0 +1,13 @@
+Ancho total de Sección: 40
+Separación Hor. de Líneas: 1
+Separación Hor. de Textos: 1
+Separación Ver. de líneas: 5
+Separación Ver. de Textos: 1
+Archivo a descargar datos: C:\PERFX.LSP
+Terreno Natural: TN
+Lineas de retícula en: RETICULA
+Textos de retícula en: RETICULA
+Cadenamiento en: TN
+Cota en: TN
+Escala textos cad: 0.5
+Escala textos ret: 0.3

@@ -1,0 +1,4 @@
+(DEFUN C:LOTE () 
+  (SETQ E (CAR (ENTSEL "ENTIDAD ; "))) (COMMAND "MEASURE" E "B" "L3" "" "20")
+  (COMMAND "EXPLODE" (SSGET "P") "" "ERASE" E "")
+)

@@ -1,0 +1,13 @@
+(defun C:pt ()
+    (setq PUNTO (getpoint " DAME EL PUNTO : "))
+    (setq ESCALA (getreal " ESCALA DEL TEXTO : "))
+    (command "point" punto)
+    (SETQ X (CAR PUNTO))
+    (SETQ Y (CADR PUNTO))
+    (SETQ X (RTOS X 2 3))
+;    (setq xy (strcat X (rtos (- Y (* ESCALA .3)) 2 3))
+;    (setq xy2 (strcat X (rtos (+ Y (* ESCALA 1.3)) 2 3)))
+    (command "dtext" "J" "C" XY ESCALA "" (STRCAT "X = " X) "")
+    (command "dtext" "J" "C" XY2 ESCALA "" (STRCAT "Y = " Y) "")
+)
+    

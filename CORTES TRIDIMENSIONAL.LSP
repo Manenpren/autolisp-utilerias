@@ -1,0 +1,13 @@
+(defun c:CR3 ()
+    (print "\n Seleciona los elementos 3D A CORTAR ")
+    (setq gpo (ssget))
+    (print "\n Seleciona los elementos CORTANTES ")
+    (setq gpoC (ssget))
+    (setq e (ssname gpoC 0))
+    (setq t1 1)
+    (while E
+      (COMMAND "SLICE" GPO "" "O" E "")
+      (setq E (ssname gpoC t1))
+      (setq t1 (1+ t1))
+    )
+)

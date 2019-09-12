@@ -1,0 +1,89 @@
+perf : dialog {
+    label = "Tipo de fuente";
+    : row {
+      : image_button {
+        key          = "arcsv";
+        label = "Archivo CSV";
+        width        = 20;
+        height = 8 ;
+        aspect_ratio = 1.0;
+        color        = 256;
+        allow_accept = true;
+        alignment = centered;
+      }
+      : image_button {
+        key          = "poli";
+        label = "Polylinea";
+        width        = 20;
+        height = 8 ;
+        aspect_ratio = 1.0;
+        color        = 256;
+        allow_accept = true;
+        alignment = centered;
+      }
+      : image_button {
+        key          = "grd";
+        label = "Archivo grd";
+        width        = 20;
+        height = 8 ;
+        aspect_ratio = 1.0;
+        color        = 256;
+        allow_accept = true;
+        alignment = centered;
+      }
+      : image_button {
+        key = "opciones";
+        label = "opciones";
+        width        = 20;
+        height = 8 ;
+        aspect_ratio = 1.0;
+        color        = 256;
+        allow_accept = true;
+        alignment = centered;
+      }
+    }
+    : row {
+      : button {
+          key = "cancel";
+          label = "Cancelar";
+          width = 2;
+          height = 2;
+          alignment = centered;
+          is_cancel = true; 
+      }
+    }
+    : spacer { height = 0.001; }
+}
+
+perf2 : dialog {
+    label = "Opciones del perfil";
+    : row {
+      label = "Configuraciones del texto";
+      : button {
+          key = "cade";
+          label = "Cadenamientos";
+          fixed_width = true;
+          alignment = centered;
+      }
+      : button {
+          key = "elev";
+          label = "Elevaciones retiicula";
+          fixed_width = true;
+          alignment = centered;
+      }
+      : button {
+          key = "elev2";
+          label = "Elevaciones estaciones";
+          fixed_width = true;
+          alignment = centered;
+      }
+    }
+    : row {
+      : toggle {
+        key = "op1";
+        label = "Preguntar por separacion de lineas";
+        alignment = left;
+      }
+    }
+    ok_cancel;
+}

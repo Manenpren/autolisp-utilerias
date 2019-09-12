@@ -1,0 +1,13 @@
+El programa arreglo realiza un areglo pidiendo dos puntos base para 
+realizarlo y pide distancia
+
+Pasos
+
+Escriba en la barra de comandos "arreglo"
+
+seleccione primer punto el arreglo se hace en sentido en el que se
+dan los dos puntos.
+
+introduzca la distancia
+
+Luego oprima enter

@@ -1,0 +1,13 @@
+(defun C:clayer ()
+    (setq texto (car (entsel "Selecciona el texto: ")))
+    (setq linea (car (entsel "Selecciona la linea : ")))
+    (if (= "LINE" (cdr (assoc 0 (entget linea))))
+      (progn
+        (command "pedit" linea "Y" "J" "all" "" "")
+        (setq linea (entlast))
+      )
+    )
+    (setq layer (cdr (assoc 1 (entget texto))))
+    (COMMAND "CHANGE" linea "" "p" "la" layer "")
+    (COMMAND "CHANGE" linea "" "p" "c" "bylayer" "")
+)

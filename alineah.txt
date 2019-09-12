@@ -1,0 +1,11 @@
+El programa alinea consiste en un simple movimiento de los
+blockes "PUN2" hacia la perpendicular con la linea 
+seleccionada.
+
+Pasos
+
+Escriba en la barra de comandos "alinea"
+
+Primero seleccione los objetos(de preferencia solo linea y blocks)
+
+Luego oprima enter

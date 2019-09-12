@@ -1,0 +1,21 @@
+por el  metodo de alvord
+shhhhhhhhhhhh!!!!!!!! dice:
+la formula es
+shhhhhhhhhhhh!!!!!!!! dice:
+Sc= (L*D)/A
+shhhhhhhhhhhh!!!!!!!! dice:
+donde l
+shhhhhhhhhhhh!!!!!!!! dice:
+es la longitud de las curvas de nivel denro de la cuenca
+shhhhhhhhhhhh!!!!!!!! dice:
+en km
+shhhhhhhhhhhh!!!!!!!! dice:
+y d
+shhhhhhhhhhhh!!!!!!!! dice:
+es el desnivel constante entre curvas de nivel en km
+shhhhhhhhhhhh!!!!!!!! dice:
+y a
+shhhhhhhhhhhh!!!!!!!! dice:
+es el area total de la cuenca
+shhhhhhhhhhhh!!!!!!!! dice:
+en km2

@@ -1,0 +1,18 @@
+;;; VLisp project file [V2.0] principaleses saved to:[G:/lispmsa] at:[7/23/12] 
+(VLISP-PROJECT-LIST
+  :NAME
+  principaleses
+  :OWN-LIST
+  ("G:/lispmsa/revisa datos climatologicos"
+    "G:/lispmsa/ENCUENTRA ESTACIONES CLIMATICAS"
+  )
+  :FAS-DIRECTORY
+  "g:\\lispmsa\\FAS"
+  :TMP-DIRECTORY
+  "E:\\tmpcomp"
+  :PROJECT-KEYS
+  (:BUILD (:standard) :MERGED nil :SAFE-MODE T :MSGLEVEL 1)
+  :CONTEXT-ID
+  :AUTOLISP
+)
+;;; EOF

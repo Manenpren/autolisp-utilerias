@@ -1,0 +1,18 @@
+;;; VLisp project file [V2.0] programas saved to:[D:/lispmsa] at:[6/29/10] 
+(VLISP-PROJECT-LIST
+  :NAME
+  programas
+  :OWN-LIST
+  ("D:/lispmsa/ENCUENTRA ESTACIONES CLIMATICAS"
+    "D:/lispmsa/revisa datos climatologicos"
+  )
+  :FAS-DIRECTORY
+  "d:\\lispmsa\\FAS"
+  :TMP-DIRECTORY
+  "d:\\book"
+  :PROJECT-KEYS
+  (:BUILD (:standard) :MERGED nil :SAFE-MODE T :MSGLEVEL 1)
+  :CONTEXT-ID
+  :AUTOLISP
+)
+;;; EOF

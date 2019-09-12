@@ -1,0 +1,7 @@
+(defun c:pd ()
+    (setq lin (car (entsel "\n linea:" )))
+    (if (= (cdr (assoc 0 (entget e))) "LWPOLYLINE")
+        (command "pedit" lin "W" ".5" "")
+        (command "pedit" lin "y" "w" ".5" "")
+    )
+)

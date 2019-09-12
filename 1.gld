@@ -1,0 +1,28 @@
+;;; Global declarations for 1 11/5/05
+
+(DROP
+  ;| function name to be dropped: <symbols> |;
+  )
+(NOT-DROP
+  ;| function names to be not dropped: <symbols> |;
+  )
+
+(LINK
+  ;| function names to be linked: <symbols> |;
+  )
+(NOT-LINK
+  ;| function names to be not linked: <symbols> |;
+  )
+
+(LOCALIZE
+  ;| bound variables to be localized within DEFUN, LAMBDA or FOREACH: <symbols> |;
+  )
+(NOT-LOCALIZE
+  ;| bound variables to be not localized: <symbols> |;
+  )
+
+(AUTOEXPORT-to-ACAD-PREFIX
+  ;| name prefixes for functions to be autoexported to AutoCAD: <strings> |;
+  )
+
+;; End of GL{obal}D{eclarations}

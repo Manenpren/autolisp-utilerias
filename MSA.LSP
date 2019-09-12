@@ -1,0 +1,12 @@
+(defun C:MSA ()
+  (setq pun (getpoint "INICIO DE LINEA :"))
+  (setq pun2 (getpoint "FIN DE LINEA :"))
+  (COMMAND "LINE" PUN PUN2 "") 
+  (setq dist (distance pun pun2))
+  (COMMAND "zoom" "c" pun dist)
+  (setq ent (entlast))
+  (setq F (= 1000))
+  (while F 
+      (command "ROTATE" ENT "" PUN "1")
+  )
+)
